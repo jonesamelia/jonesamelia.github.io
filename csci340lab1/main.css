@@ -1,0 +1,78 @@
+body {
+    font-family: 'Pacifico', sans-serif;
+   background-color: aqua;
+}
+
+footer, header {
+    display:flex;
+    padding: 10px 25px;
+    background-color: black;
+    color: aqua;
+    font-size: medium;
+    justify-content: center;
+    outline: groove black;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+header nav a{
+    display: block;
+    justify-content: flex end;
+    padding: 0 50px;
+    margin: 0 20px;
+    font-size: 20px;
+    color: lightgray;
+    font-family: Nanum Gothic Coding;
+}
+
+section container .row {
+    background-color: aqua;
+    align-items: center;
+}
+
+section li {
+    background-color: aqua;
+    font-family: Nanum Gothic Coding;
+    font-size: 25px;
+    padding: 0 10px;
+    outline: thick double black;
+    margin: 20;
+}
+
+section .row img {
+    margin: 0 0 20px;
+    padding: 0 10px;
+    width: 100%;
+    border-color: black;
+    outline: thick double black;
+}
+
+
+
+.jumbotron{
+    align-items: center;
+    background-image: url('pigphoto.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    color: black;
+    text-shadow: 1px, 1px, 1px black;
+    outline: groove black;
+} 
+
+.jumbotron h1{
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: aqua;
+}
+.jumbotron h3{
+    font-family: Nanum Gothic Coding, sans-serif;
+    text-shadow: 1px, 1px, 1px black;
+    -webkit-text-stroke: .2px;
+    -webkit-text-stroke-color: aqua;
+    
+}
