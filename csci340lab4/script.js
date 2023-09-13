@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('#clicker').click(function(){
+    $('#catclicker').click(function(){
       $.ajax({
         dataType: "json",
         url:"https://cataas.com/cat?json=true",
@@ -15,6 +15,23 @@ $(document).ready(function(){
         })
       
     })
+
+    $('#coffeeclicker').click(function(){
+        $.ajax({
+          dataType: "json",
+          url:"https://meowfacts.herokuapp.com/",
+          success: function(results){
+              console.log(results["data"]);
+              $('#texts').text(results["data"]);
+  
+  
+          },
+          error: function(xhr, status, error){
+              console.log(error);
+          }
+          })
+        
+      })
 
     
 });
